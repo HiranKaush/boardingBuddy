@@ -1,0 +1,23 @@
+# Ignore node_modules directories (these should be installed via npm/yarn)
+**/node_modules/
+
+# Ignore log files and any generated files
+**/*.log
+**/*.lock
+**/dist/
+**/build/
+
+# Ignore environment-specific files (e.g., .env, .env.local)
+**/.env
+**/.env.local
+**/.env.*.local
+
+
+# Ignore build artifacts and dependencies for any front-end framework (e.g., React, Angular, Vue)
+# You should customize these for your specific frontend technology
+# Example for React:
+**/build/
+**/coverage/
+**/node_modules/
+**/public/
+
